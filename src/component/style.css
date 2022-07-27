@@ -1,0 +1,169 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+
+
+ /* -------------------------NAVBAR--------------------- */
+
+
+
+.navbar{
+    margin: 50px;  
+    display: flex;
+    justify-content: center; 
+    flex-wrap: wrap;
+}
+
+.navbar .navbar-box{
+    background-color: black;
+    border-radius: 30px;
+    width: fit-content;
+}
+
+.navbar ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+   flex-wrap: wrap;
+   }
+
+
+.navbar ul li{
+    display: block;
+    margin:1rem;  
+padding: 10px;
+
+
+}
+
+.navbar ul li {
+ 
+    font-size: 1.7rem;
+    text-decoration: none;
+    cursor: pointer;
+    color: wheat;
+    transition: all 300ms ease-out;
+}
+
+    .navbar ul li:hover,
+    .navbar ul li:focus {
+        color: darkred;
+        box-shadow: inset 0px -20px 0px -15px darkred;
+        transition-timing-function: ease-in-out;
+        transition-duration: 0.7s;
+    } 
+
+
+ 
+
+/* -------------------------------MENU-CARDS---------------------- */
+
+.main-card{
+    display: grid;
+grid-template-columns: repeat(3, minmax(400px, 500px));
+justify-content:space-evenly;
+}
+
+.card-item{
+    margin: 1rem;
+    padding: 1rem;
+display: flex;
+flex-flow: column;
+background-color:darkred;
+width: 430px;
+height: 400px;
+}
+
+
+/*.card-item .item-number{
+    padding: 0.3rem;
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+    color:black;
+    border:1px solid grey;
+    border-radius: 50%;
+    display: block;
+    width: 1rem;
+    height: 1em;
+    text-align: center;
+}*/
+.item-title{
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.item-read{
+    margin-bottom: 0.5rem;
+    font-weight:bold;
+}
+
+.item-media{
+    width: 400px;
+    height: 250px;
+    margin-bottom: 0.5rem;
+}
+
+.item-btn {
+    margin-top: -67px;
+    margin-left: 250px;
+    font-size: 1.1rem;
+    text-align: center;
+    color: black;
+    width: 150px;
+    height: 60px;
+    font-weight: bold;
+   
+    border:none;
+}
+
+    .item-btn:hover,.item-btn:focus{
+        color: black;
+        background-color:darkred;
+    /*    box-shadow: inset 0px -20px 0px -15px darkred;*/
+        transition-timing-function: ease-in-out;
+        transition-duration: 0.7s;
+    }
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
